@@ -121,11 +121,11 @@
 }
 
 .logo {
-  width: 96px;
+  width: 112px;
 }
 
 .nav-container {
-  max-width: 1507px;
+  max-width: 1490px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -139,20 +139,21 @@
   align-items: center;
   gap: 67px;
   font-size: 18px;
-  padding-right: 9px;
+  padding-right: 12px;
 }
 
 .navbar-ul {
   display: flex;
-  gap: 36px;
+  gap: 39px;
   list-style: none;
 }
 
 .navbar-a {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "BentonSans";
+  font-weight: 100;
 }
 
 .navbar-a:hover {
@@ -170,7 +171,9 @@
   color: #fff;
   border: none;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 100;
+  cursor: pointer;
 }
 
 .login-btn:hover {
@@ -187,12 +190,14 @@
   text-align: center;
   align-items: center;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .signup-btn:hover {
   background: #fff;
   color: black;
 }
+
 .menu-icon path {
   stroke: #fff;
 }
@@ -223,7 +228,7 @@
   color: #fff;
   text-align: center;
   font-weight: 200;
-  font-size: 56px;
+  font-size: 61px;
   margin: 18px;
 }
 
@@ -263,7 +268,7 @@
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding: 8px 7px;
+  padding: 11px 15px;
   border-radius: 4px;
   border-top-left-radius: 0px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -827,9 +832,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   max-width: 1294px;
-  margin:  auto;
+  margin: auto;
   padding: 29px;
 }
+
 .locations-card-image {
   width: 100%;
   position: relative;
@@ -870,6 +876,7 @@
   color: #dfdcdc;
   font-family: "Montserrat";
 }
+
 /* Crum App */
 .crum-app {
   display: flex;
@@ -877,12 +884,12 @@
 }
 
 .crumgoogle-app {
-   width: 132px;
+  width: 132px;
 }
 
 
 .crum-heading {
-   font-size: 37px;
+  font-size: 37px;
   margin-bottom: 20px;
   color: #2c0506;
 }
@@ -969,6 +976,7 @@
 .blog-content {
   padding: 15px;
 }
+
 .blog-tile,
 .blog-meta {
   padding: 5px 20px;
@@ -977,9 +985,9 @@
 }
 
 .about-para-crum::before {
-    top: 18px;
-    left: -62px;
-    width: 55px;
+  top: 18px;
+  left: -62px;
+  width: 55px;
 }
 
 .blog-title {
@@ -1270,101 +1278,102 @@
 
 @media (max-width: 992px) {
   .container {
-  max-width: 581px;
-}
+    max-width: 581px;
+  }
 
-.about-us {
-  font-size: 25px;
-}
+  .about-us {
+    font-size: 25px;
+  }
 
-.about-para {
-  font-size: 13px;
-}
+  .about-para {
+    font-size: 13px;
+  }
 
-.about-btn {
-  padding: 15px 29px;
-}
+  .about-btn {
+    padding: 15px 29px;
+  }
 
-.thinking {
-  max-width: 694px;
-  gap: 43px;
-  margin-bottom: 116px;
-}
+  .thinking {
+    max-width: 694px;
+    gap: 43px;
+    margin-bottom: 116px;
+  }
 
-.main-section-container {
-  gap: 24px;
-}
-.footers {
+  .main-section-container {
+    gap: 24px;
+  }
+
+  .footers {
     max-width: 901px;
-}
+  }
 
-.footer-content {
-  gap: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-.before-box {
-  flex: 1.2;
-  margin-top: -224px;
-}
-
-.connect-top-grid {
-  max-width: 850px;
-  padding: 20px;
-}
+  .footer-content {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 
-.connect-title {
-  font-size: 34px;
-}
+  .before-box {
+    flex: 1.2;
+    margin-top: -224px;
+  }
 
-.connect-desc {
-  font-size: 15px;
-}
-
-
-.connect-cta {
-  padding: 15px 24px;
-  font-size: 15px;
-}
-
-.befores {
-  font-size: 37px;
-}
-
-.featured {
-  grid-template-columns: 1fr 1fr 1fr;
-}
+  .connect-top-grid {
+    max-width: 850px;
+    padding: 20px;
+  }
 
 
-.view-all {
-  right: -132px;
-}
+  .connect-title {
+    font-size: 34px;
+  }
 
-.blog-card-container {
-  grid-template-columns: 1fr 1fr;
-  padding: 0px;
-}
+  .connect-desc {
+    font-size: 15px;
+  }
 
-.crum-app-image {
+
+  .connect-cta {
+    padding: 15px 24px;
+    font-size: 15px;
+  }
+
+  .befores {
+    font-size: 37px;
+  }
+
+  .featured {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  .view-all {
+    right: -132px;
+  }
+
+  .blog-card-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+  }
+
+  .crum-app-image {
     width: 337px;
-}
+  }
 
-.popular-cites {
-  grid-template-columns: 1fr 1fr 1fr;
-}
+  .popular-cites {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 
-.logo {
-  width: 83px;
-}
+  .logo {
+    width: 83px;
+  }
 
-.main-footer {
-  max-width: 740px;
-  margin: auto;
-}
+  .main-footer {
+    max-width: 740px;
+    margin: auto;
+  }
 
 
 }
@@ -1375,8 +1384,8 @@
   }
 
   .menu-icon path {
-  stroke: #fff;
-}
+    stroke: #fff;
+  }
 
   .menu {
     display: block;
@@ -1386,235 +1395,236 @@
     width: 450px;
   }
 
-.hero-content {
-  font-size: 44px;
-  margin: 16px;
-}
+  .hero-content {
+    font-size: 44px;
+    margin: 16px;
+  }
+
   .container {
-  max-width: 401px;
-}
+    max-width: 401px;
+  }
 
-.about-btn {
-  padding: 13px 23px;
-  font-size: 14px;
-}
+  .about-btn {
+    padding: 13px 23px;
+    font-size: 14px;
+  }
 
-.main-section-container {
-  grid-template-columns: 1fr;
-}
+  .main-section-container {
+    grid-template-columns: 1fr;
+  }
 
-.thinking {
-  max-width: 424px;
-  grid-template-columns: 1fr;
-}
-
-
-.before-box {
-  flex: 1.2;
-  margin-top: -179px;
-}
+  .thinking {
+    max-width: 424px;
+    grid-template-columns: 1fr;
+  }
 
 
-.connect-text-box {
-  margin-top: 51px;
-}
+  .before-box {
+    flex: 1.2;
+    margin-top: -179px;
+  }
 
 
-.connect-title {
-  font-size: 32px;
-}
+  .connect-text-box {
+    margin-top: 51px;
+  }
 
 
-.connect-desc {
-  font-size: 13px;
-}
+  .connect-title {
+    font-size: 32px;
+  }
 
 
-.connect-cta {
-  padding: 13px 17px;
-  font-size: 14px;
-}
-
-.main-title {
-  font-size: 32px;
-}
-
-.view-all {
-  right: -81px;
-}
-
-.featured {
-  grid-template-columns: 1fr 1fr;
-}
-
-.locations-card-container {
-  grid-template-columns: 1fr 1fr;
-}
+  .connect-desc {
+    font-size: 13px;
+  }
 
 
-.crum-app-coontainer {
-  gap: 29px;
-}
+  .connect-cta {
+    padding: 13px 17px;
+    font-size: 14px;
+  }
+
+  .main-title {
+    font-size: 32px;
+  }
+
+  .view-all {
+    right: -81px;
+  }
+
+  .featured {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .locations-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
 
 
-.about-para-crum::before {
+  .crum-app-coontainer {
+    gap: 29px;
+  }
+
+
+  .about-para-crum::before {
     top: 13px;
     left: 38px;
     width: 53px;
-}
+  }
 
 
- .blog-container {
-  max-width: 542px;
-}
+  .blog-container {
+    max-width: 542px;
+  }
 
 
-.popular-cites {
-  grid-template-columns: 1fr 1fr;
-}
+  .popular-cites {
+    grid-template-columns: 1fr 1fr;
+  }
 
-.blog-heading {
-  margin-top: 18px;
-  font-size: 14px;
-}
+  .blog-heading {
+    margin-top: 18px;
+    font-size: 14px;
+  }
 
-.blog-excerpt {
-  color: #a0a1a1;
-  font-size: 15px;
-}
+  .blog-excerpt {
+    color: #a0a1a1;
+    font-size: 15px;
+  }
 
 
-.real-estate-popular-cites {
-  margin-left: -110px;
-}
+  .real-estate-popular-cites {
+    margin-left: -110px;
+  }
 
-.footers {
+  .footers {
     max-width: 681px;
-}
+  }
 
-.footer-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.main-footer {
-  max-width: 490px;
-  margin: auto;
-}
+  .main-footer {
+    max-width: 490px;
+    margin: auto;
+  }
 
 }
 
 @media (max-width: 600px) {
   .container {
-  max-width: 224px;
-}
+    max-width: 224px;
+  }
 
 
 
-.footerLogo-links {
-  width: 53%;
-}
+  .footerLogo-links {
+    width: 53%;
+  }
 
 
-.main-footer {
-  max-width: 350px;
-  margin: auto;
-}
+  .main-footer {
+    max-width: 350px;
+    margin: auto;
+  }
 
 
-.legal-menu li a {
-  font-size: 12px;
-}
+  .legal-menu li a {
+    font-size: 12px;
+  }
 
 
-.footers {
+  .footers {
     max-width: 674px;
-}
+  }
 
-.thinking {
-  max-width: 258px;
-  grid-template-columns: 1fr;
-}
+  .thinking {
+    max-width: 258px;
+    grid-template-columns: 1fr;
+  }
 
-.connect-top-grid {
-  display: flex;
-  flex-direction: column;
-}
+  .connect-top-grid {
+    display: flex;
+    flex-direction: column;
+  }
 
-.before-box {
-  flex: 1.2;
-  margin-top: -67px;
-}
+  .before-box {
+    flex: 1.2;
+    margin-top: -67px;
+  }
 
-.connect-text-box {
-  margin-top: 33px;
-}
+  .connect-text-box {
+    margin-top: 33px;
+  }
 
-.connect-title {
-  font-size: 31px;
-}
-
-
-.connect-desc {
-  font-size: 13px;
-}
-
-.connect-cta {
-  padding: 13px 14px;
-  font-size: 14px;
-}
+  .connect-title {
+    font-size: 31px;
+  }
 
 
-.main-title {
-  font-size: 23px;
-}
+  .connect-desc {
+    font-size: 13px;
+  }
+
+  .connect-cta {
+    padding: 13px 14px;
+    font-size: 14px;
+  }
 
 
-.view-all {
-  right: -58px;
-  font-size: 11px;
-}
+  .main-title {
+    font-size: 23px;
+  }
 
 
-.featured {
-  grid-template-columns: 1fr;
-}
+  .view-all {
+    right: -58px;
+    font-size: 11px;
+  }
 
 
-.locations-card-container {
-  grid-template-columns: 1fr;
-}
+  .featured {
+    grid-template-columns: 1fr;
+  }
 
-.crum-apps {
-  max-width: 320px;
-}
 
-.about-para-crum::before {
+  .locations-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .crum-apps {
+    max-width: 320px;
+  }
+
+  .about-para-crum::before {
     left: 21px;
-}
+  }
 
-.blog-card-container {
-  grid-template-columns: 1fr;
-  padding: 0px;
-}
+  .blog-card-container {
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
 
- .blog-container {
-  max-width: 334px;
-}
+  .blog-container {
+    max-width: 334px;
+  }
 
-.popular-cites-container {
-  max-width: 360px;
-}
+  .popular-cites-container {
+    max-width: 360px;
+  }
 
 
-.footer-content {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-.footer-content {
-  margin: 68px 80px;
-}
+  .footer-content {
+    margin: 68px 80px;
+  }
 
 
 
@@ -1626,31 +1636,31 @@
   }
 
   .menu-icon path {
-  stroke: #fff;
-}
+    stroke: #fff;
+  }
 
-.hero-wrapper {
-  width: 350px;
-}
+  .hero-wrapper {
+    width: 350px;
+  }
 
-.hero-content {
-  font-size: 35px;
-}
+  .hero-content {
+    font-size: 35px;
+  }
 
-.sub-heading-group {
-  margin-left: 0px;
-}
-
-
-.view-all {
-  right: -21px;
-  font-size: 9px;
-}
+  .sub-heading-group {
+    margin-left: 0px;
+  }
 
 
-.real-estate-popular-cites {
-  margin-left: -54px;
-}
+  .view-all {
+    right: -21px;
+    font-size: 9px;
+  }
+
+
+  .real-estate-popular-cites {
+    margin-left: -54px;
+  }
 
 }
 
@@ -1660,216 +1670,214 @@
   }
 
   .menu-icon path {
-  stroke: #fff;
-}
+    stroke: #fff;
+  }
 
-.hero-wrapper {
-  width: 300px;
-}
+  .hero-wrapper {
+    width: 300px;
+  }
 
-.hero-content {
-  font-size: 32px;
-}
+  .hero-content {
+    font-size: 32px;
+  }
 
- .about-main-container {
-  max-width: 189px;
-}
-
-
-.about-btn {
-  padding: 11px 16px;
-  font-size: 12px;
-}
-
-.main-section-image,
-.main-section-image2 {
-  width: 219px;
-}
-
-.footer-column {
-  flex: 1;
-  min-width: 190px;
-}
-
-.about-us {
-  font-size: 19px;
-}
-
-.footers {
-  max-width: 404px;
-  margin: auto;
-}
-
-.about-para {
-  font-size: 11px;
-}
-
-.connect-top-grid {
-  display: flex;
-  flex-direction: column;
-}
-
-.before-box {
-  flex: 1.2;
-  margin-top: -76px;
-}
-
-.befores {
-  font-size: 29px;
-}
-
-.connect-text-box {
-  margin-top: -17px;
-}
-
-.connect-title {
-  font-size: 30px;
-}
-
-.connect-cta {
-  padding: 12px 16px;
-  font-size: 15px;
-}
-
-.connect-desc {
-  font-size: 12px;
-}
+  .about-main-container {
+    max-width: 189px;
+  }
 
 
-.after-title {
-  font-size: 27px;
-  top: 220px;
-  left: 25px;
-}
+  .about-btn {
+    padding: 11px 16px;
+    font-size: 12px;
+  }
 
-.main-title {
-  font-size: 18px;
-}
+  .main-section-image,
+  .main-section-image2 {
+    width: 219px;
+  }
+
+  .footer-column {
+    flex: 1;
+    min-width: 190px;
+  }
+
+  .about-us {
+    font-size: 19px;
+  }
+
+  .footers {
+    max-width: 404px;
+    margin: auto;
+  }
+
+  .about-para {
+    font-size: 11px;
+  }
+
+  .connect-top-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .before-box {
+    flex: 1.2;
+    margin-top: -76px;
+  }
+
+  .befores {
+    font-size: 29px;
+  }
+
+  .connect-text-box {
+    margin-top: -17px;
+  }
+
+  .connect-title {
+    font-size: 30px;
+  }
+
+  .connect-cta {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+
+  .connect-desc {
+    font-size: 12px;
+  }
 
 
-.view-all {
-  right: -9px;
-  font-size: 7px;
-}
+  .after-title {
+    font-size: 27px;
+    top: 220px;
+    left: 25px;
+  }
 
-.card-heading {
-  font-size: 18px;
-}
+  .main-title {
+    font-size: 18px;
+  }
 
 
-.card-text {
-  font-size: 20px;
-}
+  .view-all {
+    right: -9px;
+    font-size: 7px;
+  }
 
-.about-para-crum::before {
+  .card-heading {
+    font-size: 18px;
+  }
+
+
+  .card-text {
+    font-size: 20px;
+  }
+
+  .about-para-crum::before {
     display: none;
-}
+  }
 
-.crum-heading {
-  font-size: 22px;
-}
+  .crum-heading {
+    font-size: 22px;
+  }
 
-.crumgoogle-app {
-   width: 116px;
-}
+  .crumgoogle-app {
+    width: 116px;
+  }
 
-.crum-app {
-  display: flex;
-  gap: 22px;
-}
+  .crum-app {
+    display: flex;
+    gap: 22px;
+  }
 
-.crum-app-image {
-  width: 285px;
-}
+  .crum-app-image {
+    width: 285px;
+  }
 
-.blog-titles {
-  font-size: 27px;
-}
+  .blog-titles {
+    font-size: 27px;
+  }
 
-.blog-divder {
-  width: 50x;
-}
-
-
-.blog-card-container {
-  grid-template-columns: 1fr;
-  padding: 0px;
-}
-
-.blog-heading {
-  margin-top: 15px;
-  font-size: 15px;
-}
-
-.blog-excerpt {
-  font-size: 14px;
-}
-
-.our-location-gropu {
-  margin-left: 28px;
-  margin-bottom: -2px;
-  margin-top: -35px;
-}
-
-.location-divider {
-  width: 50px;
-}
-.gold-line-left {
-  visibility: hidden;
-}
-
-.location-title {
-  font-size: 25px;
-}
-
-.los-angeles {
-  margin-top: -31px;
-}
-
-.los {
-  width: 50px;
-}
-
-.los-title {
-  font-size: 20px;
-}
-
-.about-para::before {
-  width: 43px;
-  top: 8px;
-  left: -56px;
-}
+  .blog-divder {
+    width: 50x;
+  }
 
 
-.logo {
-  width: 71px;
-}
+  .blog-card-container {
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
 
-.crum-apps {
-  width: 259px;
-}
+  .blog-heading {
+    margin-top: 15px;
+    font-size: 15px;
+  }
 
-.crum-app-contaner {
-  width: 245px;
-}
+  .blog-excerpt {
+    font-size: 14px;
+  }
 
-.popular-cites {
-  grid-template-columns: 1fr;
-}
+  .our-location-gropu {
+    margin-left: 28px;
+    margin-bottom: -2px;
+    margin-top: -35px;
+  }
 
-.popular-cites-container {
-  max-width: 180px;
-}
+  .location-divider {
+    width: 50px;
+  }
 
-.crum-logo {
-  width: 90px;
-}
+  .gold-line-left {
+    visibility: hidden;
+  }
 
-.main-footer {
-  max-width: 270px;
-  margin: auto;
-}
+  .location-title {
+    font-size: 25px;
+  }
+
+  .los-angeles {
+    margin-top: -31px;
+  }
+
+  .los {
+    width: 50px;
+  }
+
+  .los-title {
+    font-size: 20px;
+  }
+
+  .about-para::before {
+    width: 43px;
+    top: 8px;
+    left: -56px;
+  }
 
 
+  .logo {
+    width: 71px;
+  }
 
+  .crum-apps {
+    width: 259px;
+  }
+
+  .crum-app-contaner {
+    width: 245px;
+  }
+
+  .popular-cites {
+    grid-template-columns: 1fr;
+  }
+
+  .popular-cites-container {
+    max-width: 180px;
+  }
+
+  .crum-logo {
+    width: 90px;
+  }
+
+  .main-footer {
+    max-width: 270px;
+    margin: auto;
+  }
 }
