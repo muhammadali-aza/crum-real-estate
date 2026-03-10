@@ -121,30 +121,31 @@
 }
 
 .logo {
-  width: 112px;
+  width: 110px;
 }
 
 .nav-container {
-  max-width: 1491px;
+  max-width: 1480px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 11px 10px;
+  height: 81px;
 }
 
 .nav-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 67px;
+  gap: 76px;
   font-size: 18px;
-  padding-right: 15px;
+  padding-right: 9px;
 }
 
 .navbar-ul {
   display: flex;
-  gap: 39px;
+  gap: 42px;
   list-style: none;
 }
 
@@ -182,7 +183,7 @@
 
 .signup-btn {
   background: #916a2d;
-  padding: 6px 21px;
+  padding: 7px 25px;
   border: none;
   color: #fff;
   font-family: sans-serif;
@@ -216,11 +217,6 @@
   align-items: center;
 }
 
-.inputDiv {
-  margin-top: -2px;
-  margin-left: 0px;
-  margin-right: -28px;
-}
 
 .hero-content {
   display: flex;
@@ -228,7 +224,7 @@
   color: #fff;
   text-align: center;
   font-weight: 200;
-  font-size: 61px;
+  font-size: 63px;
   margin: 18px;
 }
 
@@ -258,7 +254,7 @@
 }
 
 .hero-wrapper {
-  width: 660px;
+  width: 675px;
   margin: 116px auto 0px;
   display: flex;
   flex-direction: column;
@@ -269,7 +265,7 @@
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding: 11px 15px;
+  padding: 10px 9px;
   border-radius: 4px;
   border-top-left-radius: 0px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -278,7 +274,7 @@
 .heroInput {
   width: 100%;
   border: none;
-  padding: 10px 22px;
+  padding: 10px 12px;
   font-size: 19px;
   outline: none;
   font-family: BentonSans;
@@ -289,16 +285,14 @@
 .search-btn {
   background: #2c0506;
   border: none;
-  width: 54px;
-  height: 54px;
+  width: 56px;
+  height: 56px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   flex-shrink: 0;
-  transition: background 0.3s ease;
-  margin: -3px -7px;
 }
 
 .search-btn:hover {
@@ -320,6 +314,7 @@
   border-bottom: 1px solid #dadfe2;
   cursor: pointer;
   font-weight: 400;
+  font-size: 15px;
 }
 
 /* Main Section */
@@ -355,7 +350,7 @@
   height: 2px;
   background: #dfc99a;
   top: 14px;
-  left: -85px;
+  left: -90px;
 }
 
 .about-us {
@@ -377,7 +372,7 @@
 .about-btn {
   background: #2c0506;
   color: #ffffff;
-  padding: 20px 45px;
+  padding: 21px 45px;
   border-radius: 50px;
   font-size: 16px;
   border: none;
@@ -391,7 +386,6 @@
 
 .main-section-image,
 .main-section-image2 {
-  /* width: 100%; */
   width: 460px;
 }
 
@@ -605,7 +599,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  /* font-size: 25px; */
   font-weight: 200;
   margin-top: 92px;
   margin-left: 29px;
@@ -950,7 +943,6 @@
 
 .thinking-btn {
   display: flex;
-  /* justify-content: center; */
   margin: 0 67px;
 }
 
