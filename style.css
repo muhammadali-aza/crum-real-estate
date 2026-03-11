@@ -125,7 +125,7 @@
 }
 
 .nav-container {
-  max-width: 1480px;
+  max-width: 1486px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -138,14 +138,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 78px;
+  gap: 84px;
   font-size: 18px;
   padding-right: 9px;
 }
 
 .navbar-ul {
   display: flex;
-  gap: 42px;
+  gap: 40px;
   list-style: none;
 }
 
@@ -211,7 +211,7 @@
 .hero-section {
   background-image: url("images/heroImg.png");
   background-size: cover;
-  height: 100vh;
+  height: 830px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +256,7 @@
 
 .hero-wrapper {
   width: 714px;
-  margin: 116px auto 0px;
+  margin: 12px auto 0px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -270,7 +270,7 @@
   border-radius: 4px;
   border-top-left-radius: 0px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  margin-left: 20px;
+  margin-left: 21px;
 }
 
 .heroInput {
@@ -287,14 +287,12 @@
 .search-btn {
   background: #2c0506;
   border: none;
-  width: 56px;
+  width: 61px;
   height: 56px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  align-items: center;
   cursor: pointer;
-  flex-shrink: 0;
 }
 
 .search-btn:hover {
@@ -303,7 +301,7 @@
 
 .category-tabs {
   display: flex;
-  margin-left: 20px;
+  margin-left: 21px;
 }
 
 .buy-btn,
@@ -322,8 +320,9 @@
 
 /* Main Section */
 .container {
-  max-width: 1014px;
-  margin: 70px auto;
+  max-width: 1074px;
+  margin: 0 auto;
+  margin-right: 179px;
 }
 
 .crum-divder {
@@ -333,10 +332,10 @@
 .main-section-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 103px;
+  gap: 122px;
   align-items: center;
-  margin-top: 77px;
   padding: 40px 0;
+  margin-top: 52px;
 }
 
 .about-para {
@@ -389,7 +388,7 @@
 
 .main-section-image,
 .main-section-image2 {
-  width: 460px;
+  width: 100%;
 }
 
 .crum-app-image {
@@ -403,8 +402,9 @@
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 226px;
+  margin-bottom: 238px;
   gap: 130px;
+  margin-top: 34px;
 }
 
 .thinkings {
@@ -422,8 +422,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 91px;
-  max-width: 1058px;
+  gap: 76px;
+  max-width: 1128px;
   margin: auto;
 }
 
@@ -440,7 +440,7 @@
 
 .before-box {
   flex: 1.2;
-  margin-top: -165px;
+  margin-top: -196px;
 }
 
 .before {
@@ -460,7 +460,7 @@
   max-width: 1200px;
   margin: auto;
   position: relative;
-  top: -110px;
+  top: -158px;
 }
 
 .after {
@@ -470,7 +470,7 @@
 }
 
 .afterImage {
-  width: 91%;
+  width: 95%;
 }
 
 .label {
@@ -487,10 +487,10 @@
   display: flex;
   flex-direction: column;
   gap: 11px;
-  position: relative;
   top: 30px;
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-left: 21px;
 }
 
 .connect-title {
@@ -513,7 +513,7 @@
   background: #2c0506;
   color: #c3b9b9;
   border: none;
-  padding: 20px 39px;
+  padding: 20px 42px;
   border-radius: 30px;
   width: fit-content;
   font-size: 17px;
@@ -533,20 +533,21 @@
 }
 
 .after-title {
-  font-size: 41px;
+  font-size: 45px;
   font-family: "Times New Roman", Times, serif;
   padding: 30px;
   position: relative;
-  top: 256px;
-  left: 129px;
+  top: 268px;
+  left: 46px;
   z-index: 1;
   color: #fff;
   font-weight: 200;
+  width: fit-content;
 }
 
 .connect-cta-div {
   padding-left: 86px;
-  margin: 16px 0;
+  margin: 18px 0;
 }
 
 .connect-cta:hover {
@@ -555,8 +556,9 @@
 
 /* Featured Propperties */
 .featured-container {
-  max-width: 1517px;
+  max-width: 1488px;
   margin: auto;
+  margin-right: 7px;
 }
 
 .featured-title-container {
@@ -601,10 +603,11 @@
 .heading-group {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 19px;
   font-weight: 200;
-  margin-top: 92px;
-  margin-left: 29px;
+  margin-top: 98px;
+  margin-left: 1px;
+  margin-bottom: 27px;
 }
 
 .main-title {
@@ -614,6 +617,7 @@
   color: #470608;
   padding-left: 27px;
   margin-bottom: 30px;
+  gao: 220px;
 }
 
 
@@ -621,20 +625,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 200;
-  margin-top: 17px;
-  margin-left: -95px;
+  margin-left: 235px;
+  margin-bottom: 12px;
+  gap: 266px;
 }
 
 .our-location-gropu {
-  margin-left: 28px;
-  margin-bottom: -2px;
-  margin-top: -25px;
+  margin-left: 311px;
+  margin-top: 94px;
 }
 
 .left-side {
   display: flex;
   align-items: center;
+  gap: 2px;
 }
 
 .view-alls {
@@ -660,7 +664,7 @@
 .gold-line,
 .gold-line-left {
   display: inline-block;
-  width: 68px;
+  width: 77px;
   height: 2px;
   background: #cf8909;
   flex-shrink: 0;
@@ -670,14 +674,12 @@
 .view-all {
   color: black;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 11px;
   transition: color 0.3s ease;
-  position: relative;
-  right: -239px;
-  top: -10px;
+  margin-bottom: 41px;
 }
 
 .view-all:hover {
@@ -686,7 +688,6 @@
 
 /* Featured Properties */
 .featured-propertie {
-  padding: 0px 5px;
   gap: 10px;
   margin-bottom: 80px;
 }
@@ -694,8 +695,7 @@
 .featured {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 10px;
-  gap: 12px;
+  gap: 16px;
 }
 
 .properties-cards {
@@ -812,7 +812,7 @@
 }
 
 .real-estate-popular-cites {
-  margin-left: -90px;
+  font-size: 80px;
 }
 
 .real {
@@ -843,7 +843,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  max-width: 1464px;
+  max-width: 1480px;
   margin: auto;
   padding: 29px;
 }
@@ -892,7 +892,7 @@
 /* Crum App */
 .crum-app {
   display: flex;
-  gap: 38px;
+  gap: 43px;
 }
 
 .crumgoogle-app {
@@ -901,7 +901,7 @@
 
 
 .crum-heading {
-  font-size: 41px;
+  font-size: 46px;
   margin-bottom: 20px;
   color: #2c0506;
 }
@@ -922,13 +922,12 @@
 .crum-container {
   background: #fafafa;
   margin-top: 50px;
-  margin-bottom: 55px;
+  margin-bottom: 77px;
 }
 
 /* Blog Container */
 .blog-container {
-  max-width: 1210px;
-  margin-top: 38px;
+  max-width: 1174px;
   padding: 12px;
 }
 
@@ -936,7 +935,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 19px;
-  margin-bottom: -22px;
+  margin-bottom: 49px;
   padding: 20px;
 }
 
@@ -946,7 +945,7 @@
 
 .thinking-btn {
   display: flex;
-  margin: 0 67px;
+  margin: 0 97px;
 }
 
 .blog-card-image {
@@ -969,7 +968,7 @@
 
 .blog-excerpt {
   color: #a0a1a1;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .blog-image {
@@ -983,7 +982,7 @@
   text-decoration: none;
   color: #5a3c3d;
   font-weight: 200;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .blog-content {
@@ -998,10 +997,10 @@
 }
 
 .about-para-crum::before {
-  top: 21px;
-  left: -55px;
+  top: 28px;
+  left: -51px;
   width: 63px;
-  height: 2px;
+  height: 3px;
 }
 
 .blog-title {
@@ -1016,8 +1015,8 @@
 
 /* Popular Cites */
 .popular-cites {
-  margin-top: -27px;
-  margin-bottom: -13px;
+  margin-top: -2px;
+  margin-bottom: 35px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -1070,8 +1069,7 @@
 }
 
 .footer-column {
-  flex: 1;
-  min-width: 200px;
+  min-width: 262px;
 }
 
 .footer-heading {
@@ -1138,14 +1136,16 @@
 }
 
 .main-footer {
-  max-width: 1230px;
+  max-width: 1045px;
   margin: auto;
+  margin-top: 116px;
 }
 
 .footer-top {
   text-align: center;
   margin-bottom: 35px;
   color: #806e6f;
+  margin-left: 103px;
 }
 
 .social-links {
@@ -1158,9 +1158,8 @@
 }
 
 .footers {
-  max-width: 1503px;
+  max-width: 1293px;
   font-size: 14px;
-  margin-bottom: -26px;
   margin-top: 110px;
 }
 
@@ -1194,12 +1193,12 @@
 }
 
 .footer-content {
-  max-width: 2110px;
+  max-width: 1017px;
   margin: 68px 130px;
   color: #c4c3c3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px
+  gap: 51px;
 }
 
 .language-selector {
@@ -1239,8 +1238,16 @@
   padding: 0 30px;
 }
 
+.thinking-heading {
+  text-align: start;
+}
+
 .popular-cites-container {
   max-width: 1146px;
+}
+
+.main-sub-title-group {
+  font-size: 47px;
 }
 
 .disclaimer-text p {
@@ -1257,10 +1264,23 @@
   margin-bottom: 30px;
 }
 
+.last-para {
+  width: 80%;
+}
+
+
 .view-heading {
   margin-left: 360px;
   margin-bottom: 20px;
   justify-content: flex-start;
+}
+
+.los-angeles {
+  margin-top: 97px;
+}
+
+.about-con {
+    margin-bottom: 39px;
 }
 
 .earth-icon {
@@ -1270,7 +1290,7 @@
 .view-all-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 98px;
 }
 
 .view {
@@ -1295,6 +1315,11 @@
 @media (max-width: 1200px) {
   .featured {
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.footer-column {
+  min-width: 211px;
 }
 
 
@@ -1561,12 +1586,35 @@ max-width: 969px;
     font-size: 23px;
   }
 
+
+.sub-heading-group {
+  gap: 185px;
+  margin-left: 110px;
+}
+
+
+/* Featured Properties */
+.featured-propertie {
+  padding: 14px;
+}
+
+
+/* Featured Propperties */
+.featured-container {
+  margin-right: 1px;
+}
+
+
   .about-para {
     font-size: 13px;
   }
 
+  .about-para::before {
+    display: none;
+  }
+
   .about-btn {
-    padding: 15px 17px;
+    padding: 15px 22px;
   }
 
   .thinking {
@@ -1584,7 +1632,6 @@ max-width: 969px;
   }
 
   .footer-content {
-    gap: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -1616,7 +1663,7 @@ max-width: 969px;
   }
 
   .befores {
-    font-size: 37px;
+    font-size: 33px;
   }
 
   .featured {
@@ -1653,8 +1700,9 @@ max-width: 969px;
 
 
   .main-footer {
-    max-width: 580px;
+    max-width: 608px;
     margin: auto;
+    margin-left: 130px;
   }
 
 
@@ -1674,7 +1722,7 @@ max-width: 969px;
 
 
 .main-title {
-  font-size: 28px;
+  font-size: 23px;
 }
 
 .locations-card-container {
@@ -1691,11 +1739,12 @@ max-width: 969px;
 }
 
 .our-blog-group {
-  margin-left: 63px;
+  margin-left: 250px;
 }
 
 .blog-container {
-  max-width: 711px;
+  max-width: 613px;
+  margin-right: 67px;
 }
 
 
@@ -1708,6 +1757,38 @@ max-width: 969px;
 .crum-app-image {
     width: 338px;
 }
+
+.crum-apps {
+  max-width: 500px;
+}
+
+
+.gold-line,
+.gold-line-left {
+  width: 67px;
+}
+
+.location-title {
+  font-size: 35px;
+}
+
+.popular-cites-container {
+  margin-right: 103px;
+}
+
+
+.after-title {
+  font-size: 42px;
+  top: 240px;
+  left: 68px;
+}
+
+
+.connect-text-box {
+  margin-top: 96px;
+}
+
+
 
 }
 
@@ -1746,11 +1827,11 @@ max-width: 969px;
   }
 
   .container {
-    max-width: 291px;
+    max-width: 308px;
+    margin-right: 164px;
   }
 
   .about-btn {
-    padding: 13px 23px;
     font-size: 14px;
   }
 
@@ -1789,7 +1870,7 @@ max-width: 969px;
 }
 
   .connect-cta {
-    padding: 13px 17px;
+    padding: 13px 13px;
     font-size: 14px;
   }
 
@@ -1824,6 +1905,7 @@ max-width: 969px;
 
   .blog-container {
     max-width: 542px;
+    margin-right: 34px;
   }
 
 
@@ -1864,6 +1946,27 @@ max-width: 969px;
     font-size: 30px;
   }
 
+.sub-heading-group {
+  gap: 104px;
+  margin-left: 9px;
+}
+
+.location-divider {
+  margin-left: 106px;
+}
+
+
+  .real-estate-popular-cites {
+    gap: 6px;
+  }
+
+  .popular-cites-container {
+    margin-right: 74px;
+  }
+
+  .footers {
+    margin-right: 1px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -2024,6 +2127,19 @@ max-width: 969px;
 .real-sub {
   display: none;
 }
+
+ .popular-cites-container {
+    margin-right: 4px;
+  }
+
+
+  .sub-heading-group {
+    margin-left: 41px;
+  }
+
+  .crum-apps {
+    margin-right: 9px;
+  }
 
 }
 
@@ -2290,7 +2406,6 @@ max-width: 969px;
   .footerLogo-links {
     width: 59%;
   }
-
 
   .main-section-container {
     gap: 35px;
