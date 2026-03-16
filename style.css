@@ -124,7 +124,7 @@
 }
 
 .nav-container {
-  max-width: 1480px;
+  max-width: 1489px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -137,9 +137,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 84px;
+  gap: 77px;
   font-size: 18px;
-  padding-right: 9px;
+  padding-right: 16px;
 }
 
 .navbar-ul {
@@ -219,13 +219,16 @@
 
 .hero-content {
   display: flex;
-  flex-direction: column;
   color: #fff;
   text-align: center;
   font-weight: 200;
   font-size: 65px;
   margin: 18px;
-  padding-left: 31px;
+  padding-left: 153px;
+}
+
+.hero-content-span {
+  margin: 0 11px;
 }
 
 .search-bar {
@@ -237,7 +240,7 @@
   margin: 12px auto 0px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 13px;
 }
 
 .search-container {
@@ -283,7 +286,7 @@
 }
 
 .buy-btn {
-  padding: 9px 33px 9px 32px;
+  padding: 9px 34px 9px 33px;
   border: none;
   border-bottom-right-radius: 2px;
   border-top-left-radius: 4px;
@@ -298,7 +301,7 @@
 
 .rent-btn {
   background: #2c0506;
-  padding: 8px 29px 9px 31px;
+  padding: 8px 30px 9px 31px;
   border: none;
   font-size: 15px;
   color: #fff;
@@ -312,7 +315,7 @@
 
 /* Main Section */
 .container {
-  max-width: 1143px;
+  max-width: 1133px;
   margin: 0 0 0 206px;
   margin-top: 98px;
 }
@@ -323,7 +326,7 @@
 
 .main-section {
   display: flex;
-  gap: 115px;
+  gap: 120px;
   align-items: center;
 }
 
@@ -356,13 +359,13 @@
   font-weight: 400;
   color: #3b1718;
   font-size: 30px;
-  margin: 34px 0 19px 0;
+  margin: 33px 0 19px 0;
   position: relative;
 }
 
 .about-btn {
   background: #2c0506;
-  color: #ffffff;
+  color: #c7bdbd;
   padding: 21px 46px;
   border-radius: 50px;
   font-size: 16px;
@@ -376,11 +379,11 @@
 }
 
 .main-section-image {
-  width: 100%;
+  width: 489px;
 }
 
 .main-section-image2 {
-  width: 482px;
+  width: 483px;
 }
 
 .crum-app-image {
@@ -390,8 +393,8 @@
 }
 
 .thinking {
-  margin-top: 56px;
-  margin-bottom: 232px;
+  max-width: 1136px;
+  margin: 69px 0px 239px 0;
 }
 
 /* Crum Connect */
@@ -404,8 +407,8 @@
 .connect-top-grid {
   display: flex;
   align-items: center;
-  gap: 76px;
-  max-width: 1143px;
+  gap: 73px;
+  max-width: 1129px;
   margin: auto;
 }
 
@@ -475,7 +478,7 @@
 
 .connect-title {
   font-family: "Times New Roman", Times, serif;
-  font-size: 47px;
+  font-size: 45px;
   color: #2c0506;
   font-weight: 200;
 }
@@ -483,10 +486,9 @@
 .connect-desc {
   color: #66667a;
   line-height: 1.9;
-  font-size: 17px;
-  max-width: 388px;
+  font-size: 16px;
+  width: 422px;
   font-family: "BentonSans";
-  letter-spacing: -1px;
 }
 
 .connect-cta {
@@ -495,12 +497,9 @@
   border: none;
   padding: 20px 45px;
   border-radius: 30px;
-  width: fit-content;
   font-size: 17px;
   cursor: pointer;
-  display: flex;
   font-family: BentonSans;
-  font-family: 100;
   text-decoration: none;
 }
 
@@ -525,6 +524,7 @@
 .connect-cta-div {
   padding-left: 75px;
   margin: 18px 0;
+  display: flex;
 }
 
 .connect-cta:hover {
@@ -597,9 +597,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1480px;
+  max-width: 1478px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 23px 0 334px;
   margin-bottom: 12px;
   gap: 266px;
 }
@@ -1237,8 +1237,8 @@
 }
 
 .thinking-con {
-  margin-left: 97px;
-  margin-top: 10px;
+  margin-left: 115px;
+  margin-top: 1px;
 }
 
 .last-para {
@@ -1256,7 +1256,7 @@
 }
 
 .about-con {
-  margin-bottom: 38px;
+  margin-bottom: 23px;
   margin-left: 82px;
 }
 
@@ -1290,484 +1290,118 @@
 }
 
 @media (max-width: 1200px) {
-  .featured {
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 13px;
-  }
-
-  .footer-column {
-    min-width: 211px;
-  }
-
-  .main-section {
-    gap: 62px;
-  }
-
-  .about-para {
-    font-size: 17px;
-    color: #ac9c9d;
-    line-height: 1.8;
-    font-family: "BentonSans";
-  }
-
-  .about-para-crum::before {
-    top: 17px;
-  }
-
-  .nav-container {
-    max-width: 1176px;
-  }
-
   .logo {
-    width: 97px;
+    width: 90px;
   }
 
   .navbar-a {
     font-size: 15px;
   }
 
+  .nav-container {
+    height: 74px;
+  }
+
   .nav-btn {
-    padding-right: 19px;
-  }
-
-  .hero-content {
-    font-size: 56px;
-  }
-
-  .hero-wrapper {
-    width: 644px;
-  }
-
-  .heroInput {
-    font-size: 18px;
-  }
-
-  .inputDiv {
-    margin-right: 10px;
-  }
-
-  .search-btn {
-    width: 51px;
-    height: 51px;
+    gap: 75px;
   }
 
   .login-btn {
     font-size: 15px;
   }
 
-  .crum-app-contaner {
-    gap: 0;
+  .signup-btn {
+    padding: 5px 20px;
   }
 
   .container {
-    max-width: 691px;
-  }
-
-  .about-us {
-    text-align: center;
-    font-weight: 100;
-    font-size: 23px;
-  }
-
-  .about-para {
-    font-size: 15px;
-  }
-
-  .about-btn {
-    padding: 18px 37px;
-    font-size: 14px;
-  }
-
-  .main-section-image,
-  .main-section-image2 {
-    width: 375px;
-  }
-
-  .thinking {
-    max-width: 912px;
-  }
-
-  .connect-top-grid {
-    max-width: 944px;
-  }
-
-  .connect-title {
-    font-size: 42px;
-  }
-
-  .connect-desc {
-    font-size: 15px;
-    letter-spacing: normal;
-  }
-
-  .connect-cta {
-    padding: 18px 30px;
-    font-size: 16px;
-  }
-
-  .afterImage {
-    width: 80%;
-  }
-
-  .main-title {
-    font-size: 36px;
-  }
-
-  .properties-cards {
-    height: 260px;
-  }
-
-  .properties-price {
-    font-size: 25px;
-  }
-
-  .bed-icon,
-  .bath-icon,
-  .width-icon {
-    object-fit: cover;
-    height: 13px;
-  }
-
-  .crum-heading {
-    text-align: start;
-    font-size: 33px;
-  }
-
-  .crumgoogle-app {
-    width: 147px;
-  }
-
-  .crum-app-image {
-    width: 460px;
-  }
-
-  .blog-container {
-    max-width: 1160px;
-    margin-right: 1px;
-  }
-
-  .blog-heading {
-    font-size: 21px;
-  }
-
-  .blog-excerpt {
-    font-size: 18px;
-  }
-
-  .popular-cites-container {
-    max-width: 969px;
-    margin-right: 1px;
-  }
-
-  .footers {
-    max-width: 1250px;
-    margin-right: 1px;
-  }
-
-  .popular-cites-link {
-    font-size: 16px;
-  }
-
-  .crum-logo {
-    width: 107px;
-  }
-
-  .footerLogo-links {
-    width: 67%;
-  }
-
-  .footer-heading {
-    font-size: 21px;
-  }
-
-  .footer-para {
-    font-size: 14px;
-  }
-
-  .sub-text {
-    font-size: 17px;
-  }
-
-  .footer-links a {
-    font-size: 15px;
-  }
-
-  .social-links li a {
-    font-size: 15px;
-  }
-
-  .personal-info-link {
-    font-size: 11px;
-  }
-
-  .main-footer {
-    max-width: 795px;
+    max-width: 980px;
     margin: auto;
   }
 
-  .languge {
-    font-size: 16px;
+
+  .main-section-image {
+    width: 429px;
   }
 
-  .legal-menu li a {
-    font-size: 17px;
+
+  .about-con {
+    margin-bottom: 24px;
+    margin-left: 54px;
   }
 
-  .disclaimer-text p {
-    font-size: 10px;
+
+  .thinking-con {
+    margin-left: 1px;
   }
 
-  .popular-cites {
-    gap: 0px;
-  }
 
-  .about-container {
-    width: 358px;
-  }
+.connect-top-grid {
 
-  .after-title {
-    top: 250px;
-    left: 85px;
-  }
-
-  .heading-group {
-    margin-top: 98px;
-    margin-bottom: 19px;
-    margin-left: 12px;
-  }
-
-  .sub-heading-group {
-    margin-left: 176px;
-    margin-bottom: 12px;
-    gap: 163px;
-  }
-
-  .featured-container {
-    margin-right: 1px;
-  }
-
-  .footer-top {
-    margin-top: 94px;
-  }
+  max-width: 1088px;
+  margin: auto;
 }
 
+}
+
+.main-section {
+  margin-top: 80px;
+  gap: 105px;
+}
+
+
+.main-section-image2 {
+  width: 482px;
+}
+
+
+
 @media (max-width: 992px) {
-  .container {
-    max-width: 534px;
+  .nav-btn {
+    gap: 58px;
   }
+
+
+  .about-con {
+    margin-left: 30px;
+  }
+
+  .thing-para {
+    font-size: 16px;
+    width: 267px;
+  }
+
+  .main-section-image {
+    width: 372px;
+  }
+
+  .main-section {
+    padding: 15px;
+    gap: 43px;
+  }
+
 
   .about-us {
-    font-size: 23px;
+    font-size: 25px;
   }
 
-  .sub-heading-group {
-    gap: 185px;
-    margin-left: 98px;
-  }
-
-  /* Featured Properties */
-  .featured-propertie {
-    padding: 14px;
-  }
-
-  /* Featured Propperties */
-  .featured-container {
-    margin-right: 1px;
+  .main-section-image2 {
+    width: 361px;
   }
 
   .about-para {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .about-para::before {
     display: none;
   }
 
-  .about-btn {
-    padding: 15px 22px;
+
+  .thinking-con {
+    margin-left: 64px;
   }
 
-  .thinking {
-    max-width: 743px;
-    gap: 43px;
-    margin-bottom: 116px;
-  }
-
-  .main-section {
-    gap: 27px;
-  }
-
-  .footers {
-    max-width: 901px;
-  }
-
-  .footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .before-box {
-    flex: 1.2;
-    margin-top: -272px;
-  }
-
-  .connect-top-grid {
-    max-width: 850px;
-    padding: 20px;
-    gap: 1px;
-  }
-
-  .connect-title {
-    font-size: 34px;
-  }
-
-  .connect-desc {
-    font-size: 15px;
-  }
-
-  .connect-cta {
-    padding: 15px 24px;
-    font-size: 15px;
-  }
-
-  .befores {
-    font-size: 27px;
-  }
-
-  .featured {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .view-all {
-    right: -132px;
-  }
-
-  .blog-card-container {
-    grid-template-columns: 1fr 1fr;
-    padding: 0px;
-  }
-
-  .crum-app-image {
-    width: 337px;
-  }
-
-  .popular-cites {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .logo {
-    width: 83px;
-  }
-
-  .heroInput {
-    font-size: 14px;
-  }
-
-  .main-footer {
-    max-width: 608px;
-    margin: auto;
-    margin-left: 130px;
-  }
-
-  .main-section-image,
-  .main-section-image2 {
-    width: 304px;
-  }
-
-  .crum-app-image {
-    width: 270px;
-  }
-
-  .connect-cta-div {
-    padding-left: 53px;
-  }
-
-  .main-title {
-    font-size: 31px;
-  }
-
-  .locations-card-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .crumgoogle-app {
-    width: 146px;
-  }
-
-  .crum-app-contaner {
-    gap: 0;
-  }
-
-  .our-blog-group {
-    margin-left: 250px;
-  }
-
-  .blog-container {
-    max-width: 613px;
-    margin-right: 67px;
-  }
-
-  .about-container {
-    width: 336px;
-  }
-
-  .crum-app-image {
-    width: 338px;
-  }
-
-  .crum-apps {
-    max-width: 500px;
-  }
-
-  .gold-line,
-  .gold-line-left {
-    width: 54px;
-  }
-
-  .location-title {
-    font-size: 35px;
-  }
-
-  .popular-cites-container {
-    margin-right: 103px;
-  }
-
-  .after-title {
-    font-size: 42px;
-    top: 240px;
-    left: 32px;
-  }
-
-  .connect-text-box {
-    margin-top: 96px;
-    width: 236px;
-  }
-
-  .before {
-    width: 320px;
-  }
-
-  .afterImage {
-    width: 88%;
-  }
-
-  .los-angeles {
-    margin-top: 1px;
-  }
-
-  .our-location-gropu {
-    margin-top: 11px;
-    margin-left: 186px;
-  }
-
-  .crum-heading {
-    font-size: 33px;
-  }
-
-  .real-estate-popular-cites {
-    display: block;
-    margin-left: 156px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1775,599 +1409,102 @@
     display: none;
   }
 
-  .crumgoogle-app {
-    width: 136px;
-  }
-
-  .crum-app-image {
-    width: 344px;
-  }
-
-  .real-sub {
-    display: none;
-  }
-
-  .menu-icon path {
-    stroke: #fff;
-  }
-
   .menu {
     display: block;
+    width: 28px;
+    height: 28px;
   }
 
   .hero-wrapper {
-    width: 450px;
+    width: 570PX;
   }
 
   .hero-content {
-    font-size: 42px;
-    margin: 16px;
-  }
-
-  .container {
-    max-width: 308px;
-    margin-right: 164px;
-  }
-
-  .about-btn {
-    font-size: 14px;
+    font-size: 58px;
+    padding-left: 144px;
   }
 
   .main-section {
-    grid-template-columns: 1fr;
-  }
-
-  .thinking {
-    max-width: 324px;
-    grid-template-columns: 1fr;
-  }
-
-  .before-box {
-    flex: 1.2;
-    margin-top: -278px;
-  }
-
-  .connect-text-box {
-    margin-top: 77px;
-    width: 231px;
-  }
-
-  .connect-title {
-    font-size: 32px;
-  }
-
-  .connect-desc {
-    font-size: 13px;
-  }
-
-  .popular-cites-container {
-    max-width: 451px;
-  }
-
-  .connect-cta {
-    padding: 15px 22px;
-    font-size: 14px;
-  }
-
-  .main-title {
-    font-size: 25px;
-  }
-
-  .view-all {
-    right: -81px;
-    font-size: 14px;
-  }
-
-  .featured {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .locations-card-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .crum-app-coontainer {
-    gap: 29px;
-  }
-
-  .about-para-crum::before {
-    top: 13px;
-    left: -27px;
-    width: 53px;
-  }
-
-  .blog-container {
-    max-width: 542px;
-    margin-right: 34px;
-  }
-
-
-  .popular-cites {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .blog-heading {
-    margin-top: 18px;
-    font-size: 14px;
-  }
-
-  .blog-excerpt {
-    color: #a0a1a1;
-    font-size: 15px;
-  }
-
-  .footers {
-    max-width: 681px;
-  }
-
-  .footer-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 
-  .main-footer {
-    max-width: 490px;
-    margin: auto;
+  .about-container {
+    margin-left: 91px;
   }
 
-  .befores {
-    font-size: 30px;
-  }
-
-  .sub-heading-group {
-    gap: 49px;
-    margin-left: 9px;
-  }
-
-  .location-divider {
-    margin-left: 106px;
-  }
-
-  .real-estate-popular-cites {
-    gap: 6px;
-  }
-
-  .popular-cites-container {
-    margin-right: 74px;
-  }
-
-  .footers {
-    margin-right: 1px;
-  }
-
-
-  .location-title {
-    font-size: 33px;
-  }
-
-  .our-blog-group {
-    margin-left: 120px;
-  }
-
-  .blog-titles {
-    font-size: 33px;
-  }
-
-  .real-estate-popular-cites {
-    margin-left: 90px;
+  .thing-para {
+    width: 100%;
   }
 }
 
 @media (max-width: 600px) {
-  .container {
-    max-width: 152px;
-  }
-
-  .footerLogo-links {
-    width: 45%;
-  }
-
-  .main-footer {
-    max-width: 309px;
-    margin: auto;
-  }
-
-  .legal-menu li a {
-    font-size: 12px;
-  }
-
-  .footers {
-    max-width: 674px;
-  }
-
-  .thinking {
-    max-width: 258px;
-    grid-template-columns: 1fr;
-  }
-
-  .connect-top-grid {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .before-box {
-    flex: 1.2;
-    margin-top: -67px;
-  }
-
-  .connect-text-box {
-    margin-top: 33px;
-  }
-
-  .connect-title {
-    font-size: 31px;
-  }
-
-  .connect-desc {
-    font-size: 13px;
-  }
-
-  .connect-cta {
-    padding: 16px 23px;
-    font-size: 14px;
-  }
-
-  .main-title {
-    font-size: 20px;
-  }
-
-  .view-all {
-    right: -58px;
-    font-size: 11px;
-  }
-
-  .featured {
-    grid-template-columns: 1fr;
-  }
-
-  .locations-card-container {
-    grid-template-columns: 1fr;
-  }
-
-  .crum-apps {
-    max-width: 320px;
-  }
-
-  .about-para-crum::before {
-    left: -29px;
-  }
-
-  .blog-card-container {
-    grid-template-columns: 1fr;
-    padding: 0px;
-  }
-
-  .blog-container {
-    max-width: 334px;
-  }
-
-  .popular-cites-container {
-    max-width: 360px;
-  }
-
-  .footer-content {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .footer-content {
-    margin: 68px 0px;
-  }
-
-  .about-btn {
-    padding: 14px 26px;
-    font-size: 11px;
-  }
-
-  .about-container {
-    width: 247px;
-  }
-
-  .about-us {
-    font-size: 23px;
-  }
-
-  .after-title {
-    font-size: 30px;
-    top: 231px;
-    left: 41px;
-  }
-
-  .crum-heading {
-    font-size: 24px;
-  }
-
-  .crumgoogle-app {
-    width: 125px;
-  }
-
-  .crum-app-image {
-    width: 335px;
-  }
-
-  .real-sub {
-    display: none;
-  }
-
-  .popular-cites-container {
-    margin-right: 4px;
-  }
-
-  .crum-apps {
-    margin-right: 22px;
-  }
-
-  .social-links {
-    justify-content: start;
-  }
-
-  .our-blog-group {
-    margin-left: 59px;
-    gap: 0;
-  }
-
-  .our-location-gropu {
-    margin-left: 0;
-    gap: 0;
-    margin-right: 1px;
-  }
-
-  .location-title {
-    font-size: 23px;
-  }
-
-}
-
-@media (max-width: 400px) {
-  .nav-btn {
-    display: none;
-  }
-
-  .menu-icon path {
-    stroke: #fff;
-  }
-
   .hero-wrapper {
-    width: 300px;
+    width: 390px;
   }
 
   .hero-content {
-    font-size: 32px;
+    padding-left: 85px;
+    font-size: 43px;
   }
 
-  .about-main-container {
-    max-width: 134px;
+  .about-container {
+    margin-left: 0;
+  }
+
+
+  .about-container {
+    width: 100%;
   }
 
   .about-btn {
-    padding: 14px 25px;
-    font-size: 12px;
-  }
-
-  .main-section-image,
-  .main-section-image2 {
-    width: 249px;
-  }
-
-  .footer-column {
-    flex: 1;
-    min-width: 190px;
-  }
-
-  .about-us {
-    font-size: 18px;
-  }
-
-  .footers {
-    max-width: 404px;
-    margin: auto;
-  }
-
-  .about-para {
-    font-size: 11px;
-  }
-
-  .connect-top-grid {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .before-box {
-    flex: 1.2;
-    margin-top: -30px;
-  }
-
-  .befores {
-    font-size: 29px;
-  }
-
-  .connect-text-box {
-    margin-top: 70px;
-  }
-
-  .connect-title {
-    font-size: 30px;
-  }
-
-  .connect-cta {
-    padding: 12px 16px;
-    font-size: 15px;
-  }
-
-  .connect-desc {
-    font-size: 12px;
-  }
-
-  .after-title {
-    font-size: 27px;
-    top: 220px;
-    left: 25px;
-  }
-
-  .main-title {
-    font-size: 19px;
-  }
-
-
-  .view-all {
-    right: -9px;
-    font-size: 11px;
-  }
-
-  .card-heading {
-    font-size: 18px;
-  }
-
-
-  .card-text {
-    font-size: 20px;
-  }
-
-  .about-para-crum::before {
-    display: none;
-  }
-
-  .crum-heading {
-    font-size: 25px;
-  }
-
-  .crumgoogle-app {
-    width: 116px;
-  }
-
-  .crum-app {
-    display: flex;
-    gap: 22px;
-  }
-
-  .crum-app-image {
-    width: 285px;
-  }
-
-  .blog-titles {
-    font-size: 27px;
-  }
-
-  .blog-divder {
-    width: 50x;
-  }
-
-
-  .blog-card-container {
-    grid-template-columns: 1fr;
-    padding: 0px;
-  }
-
-  .blog-heading {
-    margin-top: 15px;
-    font-size: 15px;
-  }
-
-  .blog-excerpt {
     font-size: 14px;
   }
+}
 
-  .our-location-gropu {
-    margin-left: 28px;
-    margin-bottom: 0px;
-  }
-
-  .location-divider {
-    width: 50px;
-  }
-
-  .gold-line-left {
-    visibility: hidden;
-  }
-
-  .location-title {
-    font-size: 28px;
-  }
-
-  .los {
-    width: 50px;
-  }
-
-  .los-title {
-    font-size: 19px;
-  }
-
-  .about-para::before {
-    width: 43px;
-    top: 8px;
-    left: -56px;
-  }
-
+@media (max-width: 400px) {
   .logo {
-    width: 71px;
-  }
-
-  .crum-apps {
-    width: 268px;
-  }
-
-  .crum-app-contaner {
-    width: 245px;
-  }
-
-  .popular-cites {
-    grid-template-columns: 1fr;
-  }
-
-  .popular-cites-container {
-    max-width: 255px;
-  }
-
-  .crum-logo {
     width: 80px;
   }
 
-  .main-footer {
-    max-width: 270px;
-    margin: auto;
+  .menu {
+    width: 25px;
+    height: 25px;
   }
 
-  .footerLogo-links {
-    width: 59%;
+  .hero-wrapper {
+    width: 292px;
   }
 
-  .main-section {
-    gap: 35px;
+  .hero-content {
+    padding-left: 8px;
+    font-size: 37px;
   }
 
-  .heading-group {
-    gap: 10px;
+  .buy-btn,
+  .rent-btn {
+    padding: 6px 30px 6px 26p
   }
 
-  .sub-heading-group {
-    margin-left: 40px;
+  .main-section-image {
+    width: 282px;
   }
 
-  .gold-line,
-  .gold-line-left {
-    width: 39px;
+  .main-section-image2 {
+    width: 279px;
   }
 
-  .our-location-gropu {
-    display: block;
-    margin-left: 61px;
+
+  .about-us {
+    font-size: 21px;
   }
 
-  .blog-container {
-    max-width: 273px;
+  .about-para {
+    font-size: 13px;
   }
 
-  .popular-cites {
-    margin-top: 0px;
-    margin-bottom: 79px;
-  }
-
-  .search-btn {
-    width: 55px;
-    height: 44px;
-  }
-
-  .left-side {
-    display: block;
+  .about-btn {
+    padding: 18px 38px;
   }
 }
